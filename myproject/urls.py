@@ -15,12 +15,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('myapp/', include('myapp.urls')),
     path('',include('myapp2.urls')),
     #path('__debug__/', include("debug_toolbar.urls")),
 ]
-#pip freeze > requirements.txt
-#mysqlclient
