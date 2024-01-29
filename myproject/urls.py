@@ -23,3 +23,7 @@ urlpatterns = [
     path('',include('myapp2.urls')),
     #path('__debug__/', include("debug_toolbar.urls")),
 ]
+# ALTER DATABASE Jeyhun$default CHARACTER SET utf8 COLLATE utf8_general_ci; 
+# echo "export SECRET_KEY=c29d1a851acdebbec1c68eb244f5debfa1b58ca3a1a874020e43736808baaae2" >> .env
+# echo "export MYSQL_PASSWORD=Kingsport123." >> .env
+# echo 'set -a; source ~/myproject1/.env; set +a' >> ~/.virtualenvs/virtualenv/bin/postactivate
