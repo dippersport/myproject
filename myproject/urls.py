@@ -29,3 +29,4 @@ urlpatterns = [
 # echo 'set -a; source ~/myproject1/.env; set +a' >> ~/.virtualenvs/virtualenv/bin/postactivate
 # git remote add origin https://github.com/username/myproject.git
 #  git push -u origin master
+#  https://github.com/dippersport/myproject.git
