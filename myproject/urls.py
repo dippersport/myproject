@@ -27,3 +27,5 @@ urlpatterns = [
 # echo "export SECRET_KEY=c29d1a851acdebbec1c68eb244f5debfa1b58ca3a1a874020e43736808baaae2" >> .env
 # echo "export MYSQL_PASSWORD=Kingsport123." >> .env
 # echo 'set -a; source ~/myproject1/.env; set +a' >> ~/.virtualenvs/virtualenv/bin/postactivate
+# git remote add origin https://github.com/username/myproject.git
+#  git push -u origin master
